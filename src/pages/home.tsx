@@ -78,8 +78,8 @@ export default function Home() {
             </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-[4rem] xl:text-[5rem] font-extrabold leading-[0.9] tracking-tighter uppercase mb-8 text-foreground/90">
               Building <br/>
-              <span className="text-primary">Real</span> <br/>
-              Solutions
+              <span className="text-primary">Superior</span> <br/>
+              Market Solutions
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-xl mb-12">
               Building the Future, One App at a Time.
@@ -120,7 +120,7 @@ export default function Home() {
           variants={{ visible: { transition: { staggerChildren: 0.07 } } }}
         >
           {[
-            "AI-POWERED", "EVERYDAY APPS", "BUILT FOR PEOPLE", "REAL SOLUTIONS",
+            "AI-POWERED", "EVERYDAY APPS", "BUILT FOR PEOPLE", "SUPERIOR MARKET SOLUTIONS",
             "10 APPS", "ONE MISSION", "PRODUCTIVITY", "COMMUNITY", "CREATIVITY",
             "INNOVATION", "FINTECH", "EDTECH", "HEALTH TECH", "BUILDING THE FUTURE",
           ].map((word, i) => (
