@@ -20,7 +20,7 @@ export default function Home() {
     "hsl(38 85% 55%)",   // 14 Lafsvegas — yellow
     "hsl(212 62% 48%)",   // 15 Emogee — blue
     "hsl(38 85% 55%)",   // 16 Recoupa — yellow
-    "hsl(212 62% 48%)",   // 17 Fix Messy 1 — blue
+    "hsl(212 62% 48%)",   // 17 Fix Messy — blue
     "hsl(38 85% 55%)",   // 18 Atlas Games — yellow
   ];
 
@@ -41,7 +41,7 @@ export default function Home() {
     { name: "Lafsvegas", url: "https://lafsvegas.com", description: "Content Creator Prediction" },
     { name: "Emogee", url: "https://emogee.me", description: "Get emotional insights" },
     { name: "Recoupa", url: "https://recoupafi.com", description: "Coming soon" },
-    { name: "Fix Messy 1", url: "https://atlasorganizer.grok.me", description: "Reorganize any space from a photo" },
+    { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
     { name: "Atlas Games", url: "https://atlasgames.grok.me", description: "Game studio" },
   ];
 
