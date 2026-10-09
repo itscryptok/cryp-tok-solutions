@@ -22,6 +22,7 @@ export default function Home() {
     "hsl(38 85% 55%)",   // 16 Recoupa — yellow
     "hsl(212 62% 48%)",   // 17 Fix Messy — blue
     "hsl(38 85% 55%)",   // 18 Atlas Games — yellow
+    "hsl(212 62% 48%)",   // 19 Content flow Engine — blue
   ];
 
   const apps = [
@@ -43,6 +44,7 @@ export default function Home() {
     { name: "Recoupa", url: "https://recoupafi.com", description: "Coming soon" },
     { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
     { name: "Atlas Games", url: "https://atlasgames.grok.me", description: "Game studio" },
+    { name: "Content flow Engine", url: "https://prolorg-clone.onrender.com", description: "The talent stage app — pitch yourself in 60s" },
   ];
 
   return (
