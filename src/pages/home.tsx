@@ -77,19 +77,20 @@ export default function Home() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
+            className="flex flex-col items-center text-center lg:items-start lg:text-left w-full"
           >
-            <div className="text-primary text-sm font-bold tracking-widest uppercase mb-8 flex items-center gap-4">
+            <div className="text-primary text-sm font-bold tracking-widest uppercase mb-8 flex items-center gap-4 justify-center lg:justify-start">
               <span className="h-[1px] w-12 bg-primary block"></span>
               The Next Era
             </div>
-            <h1 className="font-display text-5xl md:text-6xl lg:text-[4rem] xl:text-[5rem] font-extrabold leading-[0.9] tracking-tighter uppercase mb-8 text-foreground/90">
+            <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] xl:text-[5rem] font-extrabold leading-[0.95] tracking-tighter uppercase mb-8 text-foreground/90 w-full">
               <span className="text-primary">Superior</span> <br/>
               Market Solutions
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-xl mb-12">
               Building the Future, One App at a Time.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
               <a href="#apps" data-testid="link-explore-portfolio">
                 <Button size="lg" className="rounded-none h-16 px-8 text-sm uppercase tracking-widest bg-primary hover:bg-white hover:text-black text-primary-foreground font-bold transition-all w-full sm:w-auto">
                   Explore Portfolio <ArrowUpRight className="ml-2 h-5 w-5" />
