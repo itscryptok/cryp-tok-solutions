@@ -6,6 +6,8 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import { useEffect } from "react";
 
+import { applyTheme } from "@/components/ThemeToggle";
+
 const queryClient = new QueryClient();
 
 function Router() {
@@ -18,8 +20,13 @@ function Router() {
 }
 
 function App() {
+  // Day mode is the default; a stored "night" choice wins over it.
   useEffect(() => {
-    document.documentElement.classList.add("dark");
+    try {
+      applyTheme(localStorage.getItem("cts-theme") === "night" ? "night" : "day");
+    } catch {
+      applyTheme("day");
+    }
   }, []);
 
   return (

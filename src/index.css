@@ -23,7 +23,36 @@
   --font-sans: var(--app-font-sans);
 }
 
+/* Day mode (default): dark gray + lime — matches the reference look */
 :root {
+  --background: 222 9% 31%;
+  --foreground: 0 0% 96%;
+  --border: 220 8% 44%;
+  --card: 220 8% 35%;
+  --card-foreground: 0 0% 96%;
+  --card-border: 220 8% 44%;
+  --popover: 222 9% 27%;
+  --popover-foreground: 0 0% 96%;
+  --popover-border: 220 8% 44%;
+  --primary: 82 83% 69%;
+  --primary-foreground: 222 9% 12%;
+  --secondary: 220 8% 38%;
+  --secondary-foreground: 0 0% 96%;
+  --muted: 220 8% 40%;
+  --muted-foreground: 220 10% 72%;
+  --accent: 82 83% 69%;
+  --accent-foreground: 222 9% 12%;
+  --destructive: 0 70% 45%;
+  --destructive-foreground: 0 0% 96%;
+  --input: 220 8% 44%;
+  --ring: 82 83% 69%;
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-display: 'Syne', sans-serif;
+  --radius: 0px;
+}
+
+/* Night mode: the original deep-black / blue-gold theme */
+:root.night {
   --background: 0 0% 6%;
   --foreground: 0 0% 95%;
   --border: 0 0% 20%;
@@ -45,9 +74,6 @@
   --destructive-foreground: 0 0% 95%;
   --input: 0 0% 20%;
   --ring: 212 62% 48%;
-  --app-font-sans: 'DM Sans', sans-serif;
-  --app-font-display: 'Syne', sans-serif;
-  --radius: 0px;
 }
 
 @layer base {

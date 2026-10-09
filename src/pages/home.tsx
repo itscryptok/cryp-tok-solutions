@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
+import ThemeToggle from "@/components/ThemeToggle";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -59,11 +60,14 @@ export default function Home() {
           <a href="#apps" className="hover:text-primary transition-colors">Portfolio</a>
           <a href="#about" className="hover:text-primary transition-colors">Mission</a>
         </div>
-        <a href="https://thinskmedia.com" target="_blank" rel="noopener noreferrer" data-testid="link-partner-with-us">
-          <Button variant="outline" className="hidden md:inline-flex rounded-none border-white/20 hover:bg-primary hover:text-white hover:border-primary uppercase text-xs tracking-widest h-10 px-6">
-            Partner with us
-          </Button>
-        </a>
+        <div className="flex items-center gap-3">
+          <a href="https://thinskmedia.com" target="_blank" rel="noopener noreferrer" data-testid="link-partner-with-us">
+            <Button variant="outline" className="hidden md:inline-flex rounded-none border-white/20 hover:bg-primary hover:text-primary-foreground hover:border-primary uppercase text-xs tracking-widest h-10 px-6">
+              Partner with us
+            </Button>
+          </a>
+          <ThemeToggle />
+        </div>
       </nav>
 
       {/* Brutalist Split Hero */}
@@ -79,16 +83,15 @@ export default function Home() {
               The Next Era
             </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-[4rem] xl:text-[5rem] font-extrabold leading-[0.9] tracking-tighter uppercase mb-8 text-foreground/90">
-              Building <br/>
               <span className="text-primary">Superior</span> <br/>
-              Market Solutions
+              Market Solution
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-xl mb-12">
               Building the Future, One App at a Time.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#apps" data-testid="link-explore-portfolio">
-                <Button size="lg" className="rounded-none h-16 px-8 text-sm uppercase tracking-widest bg-primary hover:bg-white hover:text-black text-white font-bold transition-all w-full sm:w-auto">
+                <Button size="lg" className="rounded-none h-16 px-8 text-sm uppercase tracking-widest bg-primary hover:bg-white hover:text-black text-primary-foreground font-bold transition-all w-full sm:w-auto">
                   Explore Portfolio <ArrowUpRight className="ml-2 h-5 w-5" />
                 </Button>
               </a>
