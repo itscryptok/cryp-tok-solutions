@@ -184,9 +184,10 @@ export default function Home() {
                 <span className="text-xl font-mono text-white/20 group-hover:text-primary transition-colors">
                   {(index + 1).toString().padStart(2, '0')}
                 </span>
-                <h3 className="font-display text-3xl md:text-5xl font-bold uppercase tracking-tighter group-hover:text-primary transition-colors">
+                <h3 className="flex-1 font-display text-3xl md:text-5xl font-bold uppercase tracking-tighter group-hover:text-primary transition-colors">
                   {app.name}
                 </h3>
+                <ArrowUpRight className="h-6 w-6 shrink-0 md:hidden text-foreground/70 group-hover:text-primary transition-colors" aria-hidden="true" />
               </div>
               
               <div className="flex items-center gap-6 md:gap-12 pl-16 md:pl-0">
