@@ -84,7 +84,7 @@ export default function Home() {
             </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-[4rem] xl:text-[5rem] font-extrabold leading-[0.9] tracking-tighter uppercase mb-8 text-foreground/90">
               <span className="text-primary">Superior</span> <br/>
-              Market Solution
+              Market Solutions
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-xl mb-12">
               Building the Future, One App at a Time.
