@@ -27,6 +27,7 @@ export default function Home() {
   ];
 
   const apps = [
+    { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
     { name: "Prolice AI", url: "https://aipad2earn.com", description: "Hire AI experts on demand" },
     { name: "Bimyem Expressions", url: "https://bimyemexpressions.com", description: "African hair braiding salon" },
     { name: "REMU", url: "https://emus.onrender.com", description: "Resource for Effective Ministry Upgrade" },
