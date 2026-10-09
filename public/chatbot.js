@@ -4,22 +4,22 @@
 var EMAIL="itscryptok@gmail.com";
 var MAIL_LINK='<a href="mailto:'+EMAIL+'">'+EMAIL+'</a>';
 var MAIL_BTN='<br><a class="cx-cta" href="mailto:'+EMAIL+'">&#9993; Email us</a>';
-var IG='<a href="https://instagram.com/itscryptok" target="_blank" rel="noopener">Instagram: itscryptok</a>';
-var TT='<a href="https://tiktok.com/@itsCaptaintok" target="_blank" rel="noopener">TikTok: itsCaptaintok</a>';
+var IG='<a href="https://instagram.com/itscryp_tok" target="_blank" rel="noopener">Instagram: itscryp_tok</a>';
+var TT='<a href="https://tiktok.com/@itsCaptain_tok" target="_blank" rel="noopener">TikTok: itsCaptain_tok</a>';
 
 var R={
   services:'Here is what we do:<br>'+
     '<strong>1. Website only</strong> &mdash; a modern, fast website for your business. <strong>$250 setup, $20/month hosting.</strong><br>'+
     '<strong>2. Website + SEO + AI chatbot</strong> &mdash; rank higher on Google plus an AI chatbot that answers customers and books appointments 24/7. <strong>$420 setup, $50/month hosting.</strong><br>'+
-    '<strong>3. Everything + DM/SMS chatbot</strong> &mdash; the AI chatbot also answers your social media DMs, text messages and WhatsApp. <strong>$910 setup, $250/month hosting.</strong>',
+    '<strong>3. Everything + DM/SMS chatbot</strong> &mdash; the AI chatbot also answers your social media DMs, text messages and WhatsApp. <strong>$910 setup, \$180/month hosting.</strong>',
   price:'<strong>Our packages:</strong><br>'+
     '<strong>1. Website only</strong> &mdash; <strong>$250 setup, $20/month hosting.</strong><br>'+
     '<strong>2. Website + SEO + AI chatbot</strong> &mdash; <strong>$420 setup, $50/month hosting.</strong><br>'+
-    '<strong>3. Everything + DM/SMS chatbot</strong> &mdash; <strong>$910 setup, $250/month hosting.</strong>',
+    '<strong>3. Everything + DM/SMS chatbot</strong> &mdash; <strong>$910 setup, \$180/month hosting.</strong>',
   bot:'An <strong>AI chatbot</strong> answers your customers&rsquo; questions instantly, <strong>24/7</strong> &mdash; booking appointments and capturing leads even at midnight. On your <strong>website, Instagram and Facebook DMs, text SMS, and WhatsApp</strong>. No missed calls, no lost sales.',
   website:'<strong>Website only: $250 setup, $20/month hosting</strong> &mdash; a modern, fast website built for your business. Want the Google ranking boost and chatbot too? See package 2.'+MAIL_BTN,
   seo:'Our <strong>Website + SEO + AI chatbot</strong> package (<strong>$420 setup, $50/month hosting</strong>) builds your site to rank higher on Google and includes the 24/7 AI chatbot.',
-  dm:'Our top package (<strong>$910 setup, $250/month hosting</strong>) puts the AI chatbot on your <strong>social media DMs, text SMS and WhatsApp</strong> &mdash; every message answered instantly.',
+  dm:'Our top package (<strong>$910 setup, \$180/month hosting</strong>) puts the AI chatbot on your <strong>social media DMs, text SMS and WhatsApp</strong> &mdash; every message answered instantly.',
   book:'Tell us about your business and we&rsquo;ll take it from there:'+MAIL_BTN,
   contact:'Contact us by DM on '+IG+', '+TT+', or email '+MAIL_LINK+'.',
   sample:'You&rsquo;re looking at it! &#128521; This gold chat bubble is a live sample of our AI chatbot. Ask me about our services or prices.',
