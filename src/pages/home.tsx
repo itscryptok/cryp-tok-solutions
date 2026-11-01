@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Mail, Phone } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import { motion } from "framer-motion";
 
@@ -51,8 +51,20 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-full bg-background text-foreground font-sans overflow-x-hidden">
+      {/* Contact Top Bar */}
+      <div className="fixed top-0 left-0 right-0 z-50 flex h-9 items-center justify-center gap-6 bg-primary px-6 text-xs font-semibold tracking-wider text-primary-foreground sm:justify-between">
+        <a href="tel:+14439865060" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Phone className="h-3.5 w-3.5" />
+          <span>443-986-5060</span>
+        </a>
+        <a href="mailto:itsCrypto@gmail.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <Mail className="h-3.5 w-3.5" />
+          <span>itsCrypto@gmail.com</span>
+        </a>
+      </div>
+
       {/* Editorial Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-5 bg-background border-b border-white/10 uppercase tracking-widest text-xs font-semibold">
+      <nav className="fixed top-9 left-0 right-0 z-50 flex items-center justify-between px-6 py-5 bg-background border-b border-white/10 uppercase tracking-widest text-xs font-semibold">
         <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity" data-testid="link-logo-home">
           <img src="/logo.png" alt="Cryp Tok Solutions" className="h-8 w-8 object-contain" />
           <span className="font-display font-bold text-sm tracking-widest">Cryp Tok Solutions</span>
@@ -72,7 +84,7 @@ export default function Home() {
       </nav>
 
       {/* Brutalist Split Hero */}
-      <section className="pt-[73px] flex flex-col lg:flex-row border-b border-white/10">
+      <section className="pt-[109px] flex flex-col lg:flex-row border-b border-white/10">
         <div className="flex-1 lg:basis-[58%] flex flex-col justify-center px-6 lg:px-16 py-20 lg:py-0 border-b lg:border-b-0 lg:border-r border-white/10 overflow-hidden">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
