@@ -9,6 +9,7 @@ export default function Home() {
     "hsl(38 85% 55%)",   // 02 Bimyem Expressions — yellow
     "hsl(212 62% 48%)",   // 03 REMU — blue
     "hsl(38 85% 55%)",   // 04 Accentrop Lab — yellow
+    "hsl(212 62% 48%)",   // Believers Professional Network — blue
     "hsl(212 62% 48%)",   // 05 Jhirah — blue
     "hsl(38 85% 55%)",   // 06 Prolorg — yellow
     "hsl(212 62% 48%)",   // 07 Thinsk Media — blue
@@ -31,6 +32,7 @@ export default function Home() {
     { name: "Prolice AI", url: "https://aipad2earn.com", description: "Hire AI experts on demand" },
     { name: "Bimyem Expressions", url: "https://bimyemexpressions.com", description: "African hair braiding salon" },
     { name: "REMU", url: "https://emus.onrender.com", description: "Resource for Effective Ministry Upgrade" },
+    { name: "Believers Professional Network", url: "https://bpnetwork.onrender.com", description: "Connect. Collaborate. Make an impact." },
     { name: "Accentrop Lab", url: "https://accentrop.com", description: "Test your accent before your AI robot tests you." },
     { name: "Jhirah", url: "https://jhirah.com", description: "Businesses grow 3x faster, Customers get loyalty rewards" },
     { name: "Prolorg", url: "https://prolorg.com", description: "Get discovered for the next big opportunity" },
