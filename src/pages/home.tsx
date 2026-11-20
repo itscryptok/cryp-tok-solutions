@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import { motion } from "framer-motion";
 
@@ -54,11 +54,7 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full bg-background text-foreground font-sans overflow-x-hidden">
       {/* Contact Top Bar */}
-      <div className="fixed top-0 left-0 right-0 z-50 flex h-9 items-center justify-center gap-6 bg-primary px-6 text-xs font-semibold tracking-wider text-primary-foreground sm:justify-between">
-        <a href="tel:+14439865060" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <Phone className="h-3.5 w-3.5" />
-          <span>443-986-5060</span>
-        </a>
+      <div className="fixed top-0 left-0 right-0 z-50 flex h-9 items-center justify-center bg-primary px-6 text-xs font-semibold tracking-wider text-primary-foreground">
         <a href="mailto:itsCrypto@gmail.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <Mail className="h-3.5 w-3.5" />
           <span>itsCrypto@gmail.com</span>
