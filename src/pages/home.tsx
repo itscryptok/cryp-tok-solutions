@@ -5,37 +5,38 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const accentColors = [
-    "hsl(212 62% 48%)",   // 01 Prolice AI — blue
-    "hsl(38 85% 55%)",   // 02 Bimyem Expressions — yellow
-    "hsl(212 62% 48%)",   // 03 REMU — blue
-    "hsl(38 85% 55%)",   // 04 Accentrop Lab — yellow
-    "hsl(212 62% 48%)",   // Believers Professional Network — blue
-    "hsl(212 62% 48%)",   // 05 Jhirah — blue
-    "hsl(38 85% 55%)",   // 06 Prolorg — yellow
-    "hsl(212 62% 48%)",   // 07 Thinsk Media — blue
-    "hsl(38 85% 55%)",   // 08 Captain Tok — yellow
-    "hsl(212 62% 48%)",   // 09 Paigent — blue
-    "hsl(38 85% 55%)",   // 10 Made Kids — yellow
-    "hsl(212 62% 48%)",   // 11 Praygent — blue
-    "hsl(38 85% 55%)",   // 12 Data Clawd — yellow
-    "hsl(212 62% 48%)",   // 13 Moomi — blue
-    "hsl(38 85% 55%)",   // 14 Lafsvegas — yellow
-    "hsl(212 62% 48%)",   // 15 Emogee — blue
-    "hsl(38 85% 55%)",   // 16 Recoupa — yellow
-    "hsl(212 62% 48%)",   // 17 Fix Messy — blue
-    "hsl(38 85% 55%)",   // 18 Atlas Games — yellow
-    "hsl(212 62% 48%)",   // 19 Content flow Engine — blue
+    "hsl(212 62% 48%)",   // 01 Menstars — blue
+    "hsl(38 85% 55%)",   // 02 Recoupa — yellow
+    "hsl(212 62% 48%)",   // 03 Fix Messy — blue
+    "hsl(38 85% 55%)",   // 04 Prolice AI — yellow
+    "hsl(212 62% 48%)",   // 05 Bimyem Expressions — blue
+    "hsl(212 62% 48%)",   // 06 REMU — blue
+    "hsl(38 85% 55%)",   // 07 Believers Professional Network — yellow
+    "hsl(212 62% 48%)",   // 08 Accentrop Lab — blue
+    "hsl(38 85% 55%)",   // 09 Jhirah — yellow
+    "hsl(212 62% 48%)",   // 10 Thinsk Media — blue
+    "hsl(38 85% 55%)",   // 11 Captain Tok — yellow
+    "hsl(212 62% 48%)",   // 12 Paigent — blue
+    "hsl(38 85% 55%)",   // 13 Made Kids — yellow
+    "hsl(212 62% 48%)",   // 14 Praygent — blue
+    "hsl(38 85% 55%)",   // 15 Data Clawd — yellow
+    "hsl(212 62% 48%)",   // 16 Moomi — blue
+    "hsl(38 85% 55%)",   // 17 Lafsvegas — yellow
+    "hsl(212 62% 48%)",   // 18 Emogee — blue
+    "hsl(38 85% 55%)",   // 19 Atlas Games — yellow
+    "hsl(212 62% 48%)",   // 20 Prolorg — blue
   ];
 
   const apps = [
     { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
+    { name: "Recoupa", url: "https://recoupafi.com", description: "Coming soon" },
+    { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
     { name: "Prolice AI", url: "https://aipad2earn.com", description: "Hire AI experts on demand" },
     { name: "Bimyem Expressions", url: "https://bimyemexpressions.com", description: "African hair braiding salon" },
     { name: "REMU", url: "https://emus.onrender.com", description: "Resource for Effective Ministry Upgrade" },
     { name: "Believers Professional Network", url: "https://bpnetwork.onrender.com", description: "Connect. Collaborate. Make an impact." },
     { name: "Accentrop Lab", url: "https://accentrop.com", description: "Test your accent before your AI robot tests you." },
     { name: "Jhirah", url: "https://jhirah.com", description: "Businesses grow 3x faster, Customers get loyalty rewards" },
-    { name: "Prolorg", url: "https://prolorg.com", description: "Get discovered for the next big opportunity" },
     { name: "Thinsk Media", url: "https://thinskmedia.com", description: "AI-powered Digital Marketing" },
     { name: "Captain Tok", url: "https://captaintok.com", description: "Books & Consulting" },
     { name: "Paigent", url: "https://paigent.app", description: "Build income from Photography" },
@@ -45,10 +46,8 @@ export default function Home() {
     { name: "Moomi", url: "https://moomi.pro", description: "AI agentic COO" },
     { name: "Lafsvegas", url: "https://lafsvegas.com", description: "Content Creator Prediction" },
     { name: "Emogee", url: "https://emogee.me", description: "Get emotional insights" },
-    { name: "Recoupa", url: "https://recoupafi.com", description: "Coming soon" },
-    { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
     { name: "Atlas Games", url: "https://atlasgames.grok.me", description: "Game studio" },
-    { name: "Content flow Engine", url: "https://prolorg-clone.onrender.com", description: "The talent stage app — pitch yourself in 60s" },
+    { name: "Prolorg", url: "https://prolorg-clone.onrender.com", description: "The talent stage app — pitch yourself in 60s" },
   ];
 
   return (
