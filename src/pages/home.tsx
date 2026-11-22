@@ -89,10 +89,6 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="flex flex-col items-center text-center lg:items-start lg:text-left w-full"
           >
-            <div className="text-primary text-sm font-bold tracking-widest uppercase mb-8 flex items-center gap-4 justify-center lg:justify-start">
-              <span className="h-[1px] w-12 bg-primary block"></span>
-              The Next Era
-            </div>
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] xl:text-[5rem] font-extrabold leading-[0.95] tracking-tighter uppercase mb-8 text-foreground/90 w-full">
               <span className="text-primary">Superior</span> <br/>
               Market Solutions
