@@ -28,7 +28,7 @@ export default function Home() {
   ];
 
   const apps = [
-    { name: "Recoupa", url: "https://recoupafi.com", description: "Outsider trading list with loss-claim protection" },
+    { name: "Recoupa", url: "https://recoupafi.com", description: "Crypto is bad. Recoupa is breaking bad." },
     { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
     { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
     { name: "Prolice AI", url: "https://aipad2earn.com", description: "Hire AI experts on demand" },
