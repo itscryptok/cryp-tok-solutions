@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const accentColors = [
-    "hsl(212 62% 48%)",   // 01 Menstars — blue
-    "hsl(38 85% 55%)",   // 02 Recoupa — yellow
+    "hsl(38 85% 55%)",   // 01 Recoupa — yellow
+    "hsl(212 62% 48%)",   // 02 Menstars — blue
     "hsl(212 62% 48%)",   // 03 Fix Messy — blue
     "hsl(38 85% 55%)",   // 04 Prolice AI — yellow
     "hsl(212 62% 48%)",   // 05 Bimyem Expressions — blue
@@ -28,8 +28,8 @@ export default function Home() {
   ];
 
   const apps = [
-    { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
     { name: "Recoupa", url: "https://recoupafi.com", description: "Coming soon" },
+    { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
     { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
     { name: "Prolice AI", url: "https://aipad2earn.com", description: "Hire AI experts on demand" },
     { name: "Bimyem Expressions", url: "https://bimyemexpressions.com", description: "African hair braiding salon" },
@@ -101,14 +101,9 @@ export default function Home() {
               Building the Future, One App at a Time.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
-              <a href="#apps" data-testid="link-explore-portfolio">
+              <a href="#about" data-testid="link-who-we-are">
                 <Button size="lg" className="rounded-none h-16 px-8 text-sm uppercase tracking-widest bg-primary hover:bg-white hover:text-black text-primary-foreground font-bold transition-all w-full sm:w-auto">
-                  Explore Portfolio <ArrowUpRight className="ml-2 h-5 w-5" />
-                </Button>
-              </a>
-              <a href="#about" data-testid="link-learn-about-us">
-                <Button size="lg" variant="outline" className="rounded-none h-16 px-8 text-sm uppercase tracking-widest border-white/20 hover:bg-white/5 w-full sm:w-auto">
-                  Learn About Us
+                  Who we are
                 </Button>
               </a>
             </div>
@@ -125,35 +120,6 @@ export default function Home() {
           />
         </div>
       </section>
-
-      {/* Slide-in Tag Strip */}
-      <div className="border-b border-white/10 py-5 px-6 lg:px-16 bg-primary/5 overflow-hidden">
-        <motion.div
-          className="flex flex-wrap gap-3"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={{ visible: { transition: { staggerChildren: 0.07 } } }}
-        >
-          {[
-            "AI-POWERED", "EVERYDAY APPS", "BUILT FOR PEOPLE", "SUPERIOR MARKET SOLUTIONS",
-            "10 APPS", "ONE MISSION", "PRODUCTIVITY", "COMMUNITY", "CREATIVITY",
-            "INNOVATION", "FINTECH", "EDTECH", "HEALTH TECH", "BUILDING THE FUTURE",
-          ].map((word, i) => (
-            <motion.span
-              key={i}
-              variants={{
-                hidden: { opacity: 0, x: -24 },
-                visible: { opacity: 1, x: 0, transition: { duration: 0.4, ease: "easeOut" } },
-              }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 border border-white/10 font-display font-bold text-xs uppercase tracking-widest text-white/50 bg-white/[0.03]"
-            >
-              <span className="text-primary text-xs">✦</span>
-              {word}
-            </motion.span>
-          ))}
-        </motion.div>
-      </div>
 
       {/* Editorial Apps List */}
       <section id="apps" className="pb-16 border-b border-white/10">
