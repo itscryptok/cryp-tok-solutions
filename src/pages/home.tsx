@@ -5,29 +5,31 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const accentColors = [
-    "hsl(38 85% 55%)",   // 01 Recoupa — yellow
-    "hsl(212 62% 48%)",   // 02 Menstars — blue
-    "hsl(212 62% 48%)",   // 03 Fix Messy — blue
-    "hsl(38 85% 55%)",   // 04 Prolice AI — yellow
-    "hsl(212 62% 48%)",   // 05 Bimyem Expressions — blue
-    "hsl(212 62% 48%)",   // 06 REMU — blue
-    "hsl(38 85% 55%)",   // 07 Believers Professional Network — yellow
-    "hsl(212 62% 48%)",   // 08 Accentrop Lab — blue
-    "hsl(38 85% 55%)",   // 09 Jhirah — yellow
-    "hsl(212 62% 48%)",   // 10 Thinsk Media — blue
-    "hsl(38 85% 55%)",   // 11 Captain Tok — yellow
-    "hsl(212 62% 48%)",   // 12 Paigent — blue
-    "hsl(38 85% 55%)",   // 13 Made Kids — yellow
-    "hsl(212 62% 48%)",   // 14 Praygent — blue
-    "hsl(38 85% 55%)",   // 15 Data Clawd — yellow
-    "hsl(212 62% 48%)",   // 16 Moomi — blue
-    "hsl(38 85% 55%)",   // 17 Lafsvegas — yellow
-    "hsl(212 62% 48%)",   // 18 Emogee — blue
-    "hsl(38 85% 55%)",   // 19 Atlas Games — yellow
-    "hsl(212 62% 48%)",   // 20 Prolorg — blue
+    "hsl(38 85% 55%)",   // 01 YinkaOS — yellow
+    "hsl(38 85% 55%)",   // 02 Recoupa — yellow
+    "hsl(212 62% 48%)",   // 03 Menstars — blue
+    "hsl(212 62% 48%)",   // 04 Fix Messy — blue
+    "hsl(38 85% 55%)",   // 05 Prolice AI — yellow
+    "hsl(212 62% 48%)",   // 06 Bimyem Expressions — blue
+    "hsl(212 62% 48%)",   // 07 REMU — blue
+    "hsl(38 85% 55%)",   // 08 Believers Professional Network — yellow
+    "hsl(212 62% 48%)",   // 09 Accentrop Lab — blue
+    "hsl(38 85% 55%)",   // 10 Jhirah — yellow
+    "hsl(212 62% 48%)",   // 11 Thinsk Media — blue
+    "hsl(38 85% 55%)",   // 12 Captain Tok — yellow
+    "hsl(212 62% 48%)",   // 13 Paigent — blue
+    "hsl(38 85% 55%)",   // 14 Made Kids — yellow
+    "hsl(212 62% 48%)",   // 15 Praygent — blue
+    "hsl(38 85% 55%)",   // 16 Data Clawd — yellow
+    "hsl(212 62% 48%)",   // 17 Moomi — blue
+    "hsl(38 85% 55%)",   // 18 Lafsvegas — yellow
+    "hsl(212 62% 48%)",   // 19 Emogee — blue
+    "hsl(38 85% 55%)",   // 20 Atlas Games — yellow
+    "hsl(212 62% 48%)",   // 21 Prolorg — blue
   ];
 
   const apps = [
+    { name: "YinkaOS", url: "https://yinkaos-web.onrender.com", description: "Own a group home, run it efficiently, stay above the competition." },
     { name: "Recoupa", url: "https://recoupafi.com", description: "Crypto is bad. Recoupa is breaking bad." },
     { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
     { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
