@@ -29,7 +29,7 @@ export default function Home() {
   ];
 
   const apps = [
-    { name: "YinkaOS", url: "https://staylaop.com", description: "Own a group home, run it efficiently, stay above the competition." },
+    { name: "StaylaOp", url: "https://staylaop.com", description: "Own a group home, run it efficiently, stay above the competition." },
     { name: "Recoupa", url: "https://recoupafi.com", description: "Crypto is bad. Recoupa is breaking bad." },
     { name: "Menstars", url: "https://menstarshq.com", description: "My Engager Network — star and reward your top engagers" },
     { name: "Fix Messy", url: "https://fixmessy.onrender.com", description: "Reorganize any space from a photo" },
